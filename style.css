@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body {
+    margin: o;
+
+}
+
+.main-login {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(rgba(0,0,0.50),rgba(0,0,0,.59)100%);
+    justify-content: center;
+    align-items: center;
+} 
+
+.left-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+
+.right-login {
+    width: 50vw;
+    height:100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+} 
+
+.card-login {
+    width: 60%;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #201b2c;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+} 
+.card-login {
+    color: aquamarine;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield {
+    display: flex;
+    flex-direction:column ;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0;
+    
+}
+
+.tfld {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.textfield > input {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background: #514869;
+  font-size: 12pt;
+  box-shadow: 0px 10px 40px #00000056;
+  box-sizing: border-box;
+} 
+
+.tfld > input {
+  width: 210px;
+  border: none;
+  border-radius: 10px;
+  padding: 15px; 
+  background:#514869;
+  font-size: 12pt;
+  box-shadow: 0px 10px 40px #00000056;
+  box-sizing: border-box;
+} 
+.textfield > label {
+    color: beige;
+    margin-bottom: 10px;
+
+}
+ .tfld > label {
+     color: beige;
+     margin-bottom: 10px ;
+ }
+
+.btn-login {
+    width: 70%;
+    padding: 16px 0;
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    background-color:#514869 ;
+    color: beige;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px 12px #00ff4052;
+}
+
+
+
+
+
+
+
+
+
+
+
